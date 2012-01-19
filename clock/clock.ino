@@ -1,3 +1,8 @@
+/* Mibus' little settable clock
+ * Designed for Pebble v2 board
+ * (C) Robert Mibus <mibus@mibus.org> 2012
+ * License: GPLv3
+ */
 #include <AikoCommands.h>
 #include <AikoEvents.h>
 
