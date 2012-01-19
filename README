@@ -1,0 +1,7 @@
+Munged from the Pebble v2 example code.
+
+The example code was GPLv3, so all my stuff is too.
+
+clock: A clock settable with the rotary encoder. Can be programmed with the time from a USB-connected computer.
+bigclock: A clock with a larger display, only settable via USB at this point. Can also drive the LEDs by serial command (eg. for load display)
+textout: A twitter display for #lca2012, much like a tiny version of the big screens up around the place :-)
