@@ -18,6 +18,8 @@ void setup(void) {
   Events.addHandler(mySerialHandler,       200);
 }
 
+int row=0;
+
 void mySerialHandler(void) {
 
   // Drop out if there's no data
@@ -25,9 +27,13 @@ void mySerialHandler(void) {
     // Grab a char
     char ch = Serial.read();
 
-    if (ch == 0)
+    if (ch == 0) {
       lcdClear();
-    else
+      lcdPosition(row=0,0);
+    } else if (ch == '\n') {
+      row++;
+      lcdPosition(row,0);
+    } else
       lcdWrite(ch,1);  
   }
 }

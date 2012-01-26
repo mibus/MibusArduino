@@ -90,13 +90,6 @@ void lcdHandler(void) {
     lcdClear();
   }
 
-  // Draw a colon!!
-  lcdPosition (1, 9);
-  lcdWrite(']',1);
-  lcdWrite('[',1);
-  lcdPosition (2, 9);
-  lcdWrite(']',1);
-  lcdWrite('[',1);
 }
 
 void lcdWrite(
