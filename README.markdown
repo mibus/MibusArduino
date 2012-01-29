@@ -20,6 +20,11 @@ falltoy
 
 Uses a 3-axis accelerometer and piezo; shows different colours on the RGB LED depending on which way is up, and 'screams' if you drop it :)
 
+StairAlert1
+-----------
+
+An attempt at using the 3-axis accelerometer as a movement alarm. Doesn't work well on my battery-based setup, but could be a game (move it but not too fast!) on stable power (eg. USB).
+
 textout
 -------
 
