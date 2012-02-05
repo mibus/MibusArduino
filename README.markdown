@@ -3,7 +3,7 @@ Mibus's Random Arduino Bits
 
 Much (particularly the LCD & rotary-encoder code) was munged from the Pebble v2 example code from LCA2012.
 
-All of the below is released under the GPLv3.
+Projects below are released under the GPLv3, unless otherwise noted.
 
 bigclock
 --------
@@ -19,6 +19,13 @@ falltoy
 -------
 
 Uses a 3-axis accelerometer and piezo; shows different colours on the RGB LED depending on which way is up, and 'screams' if you drop it :)
+
+Raining
+-------
+
+Uses the Pebble v2's 20x4 LCD display and custom characters to display a "rain" effect (the LCD needs to be mounted sideways). Could readily be extended to have more rain based on CPU load or net traffic.
+
+Licensed under: CC BY-SA 3.0.
 
 StairAlert1
 -----------
