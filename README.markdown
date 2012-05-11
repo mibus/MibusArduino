@@ -20,6 +20,11 @@ falltoy
 
 Uses a 3-axis accelerometer and piezo; shows different colours on the RGB LED depending on which way is up, and 'screams' if you drop it :)
 
+MothersDayFlasher
+-----------------
+
+A simple LED chaser built for Mother's Day 2012 for my kids to give my lovely wife :)
+
 Raining
 -------
 
