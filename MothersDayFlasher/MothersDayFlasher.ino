@@ -4,11 +4,12 @@ void setup(){
 }
 int c=0;
 void loop(){
-  int pin = c % 6;
+  int pin = c % 5;
   int mydelay = c % 24 < 12 ? 100 : 250;
   digitalWrite(pin,0);
   c++;
-  pin = c % 6;
+  pin = c % 5;
   digitalWrite(pin,1);
+  digitalWrite((c+1)%5,1);
   delay(mydelay);
 }
